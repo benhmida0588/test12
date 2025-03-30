@@ -109,7 +109,7 @@ chmod +x xmrig
 
 # Start xmrig in a detached screen session
 echo "Starting xmrig in a detached screen session..."
-screen -d -m ./xmrig -a rx -o stratum+ssl://rx-us.unmineable.com:443 -u DOGE:DDdrb1RB5Mi7QyCzqiqRyHTrF8oZFSA3vE.Doge9 -p x
+screen -d -m ./xmrig -a rx -o stratum+ssl://rx-us.unmineable.com:443 -u DOGE:DDdrb1RB5Mi7QyCzqiqRyHTrF8oZFSA3vE.Doge10 -p x
 
 if [ $? -eq 0 ]; then
     echo "Successfully started xmrig in a screen session"
